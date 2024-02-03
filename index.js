@@ -14,6 +14,6 @@ app.get('/login', (req,res)=>{
     res.send('<h1>login at shivanshu</h1>')
 })
 
-app.listen(process.env.PORT , ()=>{
+app.listen(port , ()=>{
     console.log(`Example app listening on port ${port}`)
 })
